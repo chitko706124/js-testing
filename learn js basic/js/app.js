@@ -209,6 +209,52 @@
 // console.log(!condition)
 
 
-let condation = true || false
+// let condation = true || false
 
-console.log(condation)
+// console.log(condation)
+
+// let condation = true
+
+// console.log(!(condation))
+
+// let x = 5;
+
+// console.log(x >= 5 ? true : false)
+
+// let havUFinishDinner = true;
+
+// console.log(havUFinishDinner ? "ထမင်းစားပြီးပါပြီ" : "မစားရသေးပါ")
+
+// function getFee(isMember) {
+//     return (isMember ? '$2.00' : '$10.00');
+//   }
+  
+//   console.log(getFee(true));
+
+// let havUFinishDinner = false;
+
+// let result = havUFinishDinner ? "yes" : "no";
+
+// console.log(result)
+
+// function run(text="aa"){
+//     return "This is a " + text;
+// }
+
+// console.log(run("name"))
+// console.log(run("Chit Ko Ko"))
+// console.log(run())
+
+// const run = function(text="web developer"){
+//     return "This is a " + text;
+// }
+
+// console.log(run("Name"))
+// console.log(run())
+
+(function(){
+    let x = 5;
+    let y = 10;
+    console.log(x+y)
+    return x + y;
+})()
