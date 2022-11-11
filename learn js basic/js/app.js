@@ -1,6 +1,10 @@
 // function inchesToFeet(input){
 
-//     return input /12 + " ft";
+//     return showResult(input /12 + " ft");
+// }
+
+// function showResult(text){
+//     return `the result is `+text;
 // }
 
 // console.log(inchesToFeet(50));
@@ -242,7 +246,7 @@
 // }
 
 // console.log(run("name"))
-// console.log(run("Chit Ko Ko"))
+// console.log(run("Chit Ko Ko")) 
 // console.log(run())
 
 // const run = function(text="web developer"){
@@ -252,9 +256,42 @@
 // console.log(run("Name"))
 // console.log(run())
 
-(function(){
-    let x = 5;
-    let y = 10;
-    console.log(x+y)
-    return x + y;
-})()
+// (function(){
+//     let x = 5;
+//     let y = 10;
+//     console.log(x+y)
+//     return x + y;
+// })()
+
+// (function(){
+//     let x = 15;
+//     let y = 10;
+//     console.log(x+y)
+// })()
+
+// console.log(` ${(function(){ return `ckk`})()} `)
+
+
+//  let x = 5;
+
+// {
+//     console.log(x)
+// }
+
+
+
+// function run(text){
+//     return "This is st "+text;
+// }
+
+// console.log(run("hositing"));
+
+// run()
+
+// console.log(x)
+
+let x = function(text){
+    return `This is a `+text;
+}
+
+console.log(x("under"))
