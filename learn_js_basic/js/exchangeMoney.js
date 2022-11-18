@@ -23,8 +23,11 @@
  // 500 sgd => mmk => usd
 
  function toAnnyCurrency(inPutAmount,fromCurrency,toCurrency){
+
     let mmk = inPutAmount * rates[fromCurrency];
+
     let result = mmk / rates[toCurrency];
+    
     return result + " " +toCurrency;
  }
 

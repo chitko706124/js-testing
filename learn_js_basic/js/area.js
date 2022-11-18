@@ -18,11 +18,11 @@
 
 // console.table(records)
 
-function Shwe(kyat,pal,ywe){
-    let shweZay = (kyat + pal/16 + (ywe/8)/16);
+// function Shwe(kyat,pal,ywe){
+//     let shweZay = (kyat + pal/16 + (ywe/8)/16);
     
-    return shweZay * 2800000 + " ကျပ်"
-}
+//     return shweZay * 2800000 + " ကျပ်"
+// }
 
-console.log(Shwe(1,7,4))
-console.log(Shwe(1,0,4))
+// console.log(Shwe(1,7,4))
+// console.log(Shwe(1,0,4))
