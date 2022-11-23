@@ -295,3 +295,14 @@
 // }
 
 // console.log(x("under"))
+
+let temperature = 106;
+
+
+if(temperature > 99){
+    console.log("illness")
+}else if(temperature >= 90){
+    console.log("good health")
+}else if(temperature < 50){
+    console.log("dead")
+}
