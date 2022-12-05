@@ -296,7 +296,7 @@
 
 // console.log(x("under"))
 
-let temperature = 106;
+let temperature = 106; n 
 
 
 if(temperature > 99){
