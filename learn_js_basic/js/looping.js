@@ -25,51 +25,76 @@
 // win or lose
 
 
-const mgmgInfo = {
-    name : "mgmg",
-    age : 18,
-    mark : [
-        {
-            id : 1,
-            subject : "Myanmar",
-            mark : 56,
-        },
-        {
-            id : 2,
-            subject : "English",
-            mark : 70,
-        },
-        {
-            id : 3,
-            subject : "Math",
-            mark : 96
-        },
-        {
-            id : 4,
-            subject : "Chem",
-            mark : 85
-        },  
-        {
-            id : 5,
-            subject : "Phy",
-            mark : 90
-        },  
-        {
-            id : 6,
-            subject : "Bio",
-            mark : 75
-        },
-    ]
-}
+// const mgmgInfo = {
 
-mgmgInfo.totalMark = 0;
-mgmgInfo.results = {};
+//     name : "mgmg",
+//     age : 18,
+//     mark : [
+//         {
+//             id : 1,
+//             subject : "Myanmar",
+//             mark : 56,
+//         },
+//         {
+//             id : 2,
+//             subject : "English",
+//             mark : 70,
+//         },
+//         {
+//             id : 3,
+//             subject : "Math",
+//             mark : 96
+//         },
+//         {
+//             id : 4,
+//             subject : "Chem",
+//             mark : 85
+//         },  
+//         {
+//             id : 5,
+//             subject : "Phy",
+//             mark : 90
+//         },  
+//         {
+//             id : 6,
+//             subject : "Bio",
+//             mark : 75
+//         },
+//     ]
+// }
 
-for (let i=0;i<mgmgInfo.mark.length;i++){
-    console.log(mgmgInfo.mark[i].mark);
-    mgmgInfo.totalMark += mgmgInfo.mark[i].mark;
-    mgmgInfo.results [mgmgInfo.mark[i].subject] = mgmgInfo.mark[i].mark >=40 ? "pass" : "fail"
-}
+// //အချက်လက်တွေထက်ထည့်တာ
+// mgmgInfo.totalMark = 0;
+// mgmgInfo.results = {};
 
-console.log(mgmgInfo)
+// for (let i=0;i<mgmgInfo.mark.length;i++){
+//     console.log(mgmgInfo.mark[i].mark);
+//     //total mark ရှာတာ
+//     mgmgInfo.totalMark += mgmgInfo.mark[i].mark;
+//     // pass or fail စစ်တာ   
+//     mgmgInfo.results [mgmgInfo.mark[i].subject] = mgmgInfo.mark[i].mark >=40 ? "pass" : "fail"
+// }
+
+// console.log(mgmgInfo)
 // console.log(mgmgInfo.mark[3].mark)
+
+function starGenerator(count,element="* "){
+    let star = "";
+    for(let i=1;i<=count;i++){
+        star += element;
+    }
+    return star;
+}
+// console.log(starGenerator(4))
+
+
+// half pyramid
+for (let i=1;i<=6;i++){
+    console.log(starGenerator(i,"* "))
+}
+
+
+for (let i=6;i>=1;i--){
+    console.log(starGenerator(i,"= "))
+}
+
