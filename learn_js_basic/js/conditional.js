@@ -17,19 +17,18 @@ function canICome(wakeUpTime){
     // ၉ နာရီမတိုင်လာရင်ကျောင်းတက်ရ
     // ၉ နာရီကျော်လာရင် ကျောင်းမဝင်ရ
 
-    // let result;
+    let result;
 
-    // if(wakeUpTime <= 9){
-    //     result ="အတန်းထဲဝင်ပါ";
-    // }else{
-    //     result = "အတန်းထဲမဝင်ပါနဲ့";
-    // }
-
-    if(wakeUpTime <= 9) { 
-        return "အတန်းထဲဝင်ပါ";
+    if(wakeUpTime <= 9){
+        result ="အတန်းထဲဝင်ပါ";
+    }else{
+        result = "အတန်းထဲမဝင်ပါနဲ့";
     }
 
-        return "အတန်းထဲမဝင်ပါနဲ့";
+    // if(wakeUpTime <= 9) { 
+    //     return "အတန်းထဲဝင်ပါ";
+    // }
+    //     return "အတန်းထဲမဝင်ပါနဲ့";
 }
 
 console.log(canICome(9))

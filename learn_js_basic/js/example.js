@@ -17,23 +17,7 @@
 
 
 
-// function canICome(wakeUpTime){
-
-//     let result;
-
-//     if(wakeUpTime <= 9){
-//         result ="အတန်းထဲဝင်ပါ";
-//     }else{
-//         result = "အတန်းထဲမဝင်ပါနဲ့";
-//     }
-// }
-// console.log(canICome(10))
-// console.log(canICome(9))
-
 function canICome(wakeUpTime){
-    //မနက် ၉ နာရီကျောင်းတက်ပါတယ်
-    // ၉ နာရီမတိုင်လာရင်ကျောင်းတက်ရ
-    // ၉ နာရီကျော်လာရင် ကျောင်းမဝင်ရ
 
     let result;
 
@@ -42,11 +26,5 @@ function canICome(wakeUpTime){
     }else{
         result = "အတန်းထဲမဝင်ပါနဲ့";
     }
-
-    // if(wakeUpTime <= 9) { 
-    //     return "အတန်းထဲဝင်ပါ";
-    // }
-    //     return "အတန်းထဲမဝင်ပါနဲ့";
 }
-
-console.log(canICome(9))
+console.log(canICome(10))

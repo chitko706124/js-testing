@@ -78,23 +78,88 @@
 // console.log(mgmgInfo)
 // console.log(mgmgInfo.mark[3].mark)
 
-function starGenerator(count,element="* "){
-    let star = "";
-    for(let i=1;i<=count;i++){
-        star += element;
+// function starGenerator(count,element="* "){
+//     let star = "";
+//     for(let i=1;i<=count;i++){
+//         star += element;
+//     }
+//     return star;
+// }
+// // console.log(starGenerator(4))
+
+
+// // half pyramid
+// for (let i=1;i<=6;i++){
+//     console.log(starGenerator(i,"* "))
+// }
+
+
+// for (let i=6;i>=1;i--){
+//     console.log(starGenerator(i,"= "))
+// }
+
+///////////
+
+// for (let i=1;i<=6;i++){
+//     // console.log(starGenerator(i,i%2 === 0 ? "= " : "* "))
+
+//     if(i%2 === 0){
+//         console.log(starGenerator(i,"= "))
+//     }else{
+//         console.log(starGenerator(i,"* "))
+//     }
+// }
+
+
+
+// for(let i=1;i<=5;i++){
+//     let star=""
+//     for(let x=1;x<=5;x++){
+//         star+="* "
+//     }
+//     console.log(star,i)
+// }
+
+const ratings =[
+    {
+        id : 1,
+        name : "Mg Mg",
+        rate : 3,
+    },
+    {
+        id : 2,
+        name : "Kyaw Kyaw",
+        rate : 5,
+    },  
+    {
+        id : 3,
+        name : "Hla Hla",
+        rate : 1,
+    },   
+    {
+        id : 4,
+        name : "Mya Mya",
+        rate : 2,
+    },   
+    {
+        id : 5,
+        name : "Ko KO",
+        rate : 4,
+    },
+    {
+        id : 6,
+        name : "Ko Myo",
+        rate : 6,
+    },
+]
+for(let i=0;i<ratings.length;i++){
+    let result="";
+    for(let x=1;x<=ratings.length;x++){
+        if(x <= ratings[i].rate){
+            result += "* "
+        }else{
+            result += "- "
+        }
     }
-    return star;
+    console.log(result,ratings[i].name)
 }
-// console.log(starGenerator(4))
-
-
-// half pyramid
-for (let i=1;i<=6;i++){
-    console.log(starGenerator(i,"* "))
-}
-
-
-for (let i=6;i>=1;i--){
-    console.log(starGenerator(i,"= "))
-}
-
