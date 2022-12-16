@@ -154,7 +154,7 @@ const ratings =[
 ]
 for(let i=0;i<ratings.length;i++){
     let result="";
-    for(let x=1;x<=ratings.length;x++){
+    for(let x=1;x<=5;x++){
         if(x <= ratings[i].rate){
             result += "* "
         }else{
