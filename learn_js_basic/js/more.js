@@ -40,12 +40,17 @@
 
 // console.log(FullOfAbdomen("HotPot"))
 
-function YourName(name){
-    if(typeof name === "object") return name;return false;
-}
+// function YourName(name){
+//     if(typeof name === "object") return name;return false;
+// }
 
-console.log(YourName("ckk"))
-console.log(YourName(38))
-console.log(YourName(["a","b"]))
-console.log(YourName({a:"a",b:"b"}))
+// console.log(YourName("ckk"))
+// console.log(YourName(38))
+// console.log(YourName(["a","b"]))
+// console.log(YourName({a:"a",b:"b"}))
 
+// function run(a,b,c){
+//     console.log(arguments)
+// }
+
+// console.log(run("a","b","c"))
